@@ -1,0 +1,19 @@
+{
+	"version": "0.0.0",
+	"module": "index.ts",
+	"type": "module",
+	"private": true,
+	"scripts": {
+		"test": "bun test",
+		"format": "oxfmt",
+		"format:check": "oxfmt --check",
+		"typecheck": "tsc --noEmit"
+	},
+	"devDependencies": {
+		"@types/bun": "^1.4.2",
+		"oxfmt": "0.68.0"
+	},
+	"peerDependencies": {
+		"typescript": "^7.0.2"
+	}
+}
